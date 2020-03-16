@@ -113,7 +113,7 @@ const getOffset = (length: number, span: number = 8) => {
  * 默认的设置
  */
 const defaultSearch: SearchConfig = {
-  searchText: '查询',
+  searchText: '查1询',
   resetText: '重置',
   span: defaultColConfig,
   collapseRender: (collapsed: boolean) => (collapsed ? '展开' : '收起'),
@@ -424,7 +424,7 @@ const getDefaultSearch = (
         </>
       );
     },
-    searchText: intl.getMessage('tableFrom.search', defaultSearch.searchText || '查询'),
+    searchText: intl.getMessage('tableFrom.search', defaultSearch.searchText || '查1询'),
     resetText: intl.getMessage('tableFrom.reset', defaultSearch.resetText || '重置'),
     submitText: intl.getMessage('tableFrom.submit', defaultSearch.resetText || '提交'),
     span: isFrom ? defaultFromColConfig : defaultColConfig,
